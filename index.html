@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Vasundra S's Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li class="links"><a href="#welcome">HOME</a></li>
+        <li class="links"><a href="#videos">ART</a></li>
+        <li class="links"><a href="#work">ACHIEVEMENTS</a></li>
+        <li class="links"><a href="#writings">CURRENT INTERESTS</a></li>
+        <li class="links"><a href="#contact">CONTACT</a></li>
+
+    </ul>
+
+    <section id="welcome">
+        <div class="parallax-inner">
+            <img src="stbl.jpg" class="profile" />
+            <h1>I am <br><span id="name">Vasundra S</span></h1>
+            <h2> I am a 7th grade student from Hindustan International School, Padur</h2>
+        </div>
+
+    </section>
+
+
+
+    <section id="bio">
+        <h1 class="header">About Me</h1>
+        <div class="line"></div>
+        <p class="fontsize">I'm Vasundra S, a 7th grade student from Hindustan Internation School, Padur. I was born in
+         Chennai and have lived there since. My hobbies include reading, drawing, writing and singing. 
+         I wish to become a Satellite Engineer when I grow up, because it includes all my favourite subjects,
+         Math, Science and ICT. I hope you enjoy reading about me!
+        
+        </p>
+    </section>
+
+    <section id="videos">
+        <h1 class="header">Art Gallery</h1>
+        <div class="line"></div>
+        <br>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+        .mySlides {display:none;
+        margin-left: 350px;}
+        </style>
+        <br>
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="THE WORLDS CUTEST CAT.jpeg" style="width:30%">
+            <img class="mySlides" src="Knight.jpeg" style="width:30%">
+            <img class="mySlides" src="omg ROSEEEE.jpeg" style="width:30%">
+            <img class="mySlides" src="Rose.jpeg" style="width:30%">
+            <img class="mySlides" src="Eye.jpeg" style="width:30%">
+            <img class="mySlides" src="Party Gown.jpeg" style="width:30%">
+            <img class="mySlides" src="Weird Icecream.jpeg" style="width:30%">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+          
+          <script>
+          var slideIndex = 1;
+          showDivs(slideIndex);
+          
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+          
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+          }
+          </script>
+          
+        
+
+    </section>
+    <section id="work">
+        <h1 class="header">Achievements</h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+        <div class="line"></div>
+        <br>
+        <div class="w3-tooltip">
+            <img src="Cambridge Results.JPG" alt="6/6" style="width:30%">
+            <p class="w3-text">This is perhaps my greatest achievement so far. The Campridge Checkpoint is an international exam written in British English, Math, Science.
+                As you can see in my certificate, I have score 6 in all 3, the highest possible score.
+            </p>
+          </div>
+          <br>
+          <div class="w3-tooltip">
+            <img src="Winner of End Eloc...jpeg" alt="I win everything ha" style="width:30%">
+            <p class="w3-text">This is the award I recieved for winning the 1st position in me previous school's English Elocution competition.
+            </p>
+          </div>
+          <br>
+          <div class="w3-tooltip">
+            <img src="MEDALSS.jpeg" alt="More MEDALSS" style="width:30%">
+            <p class="w3-text">These are the awards I recieved in my previous school for winning the gold medal in the INTL Science and English Olympiad.
+            </p>
+          </div>
+          <br>
+          <div class="w3-tooltip">
+            <img src="I write a BAD story.jpg" alt="Please do not read this buk" style="width:30%">
+            <p class="w3-text">This is the cover of a book which contains 10-20 short story out of which one is mine. It is called Fiona's Furniture and is based on the plot where her furniture talks.
+            </p>
+          </div>
+
+    </section>
+    <section id="writings">
+        <h1 class="header">Current Interest</h1>
+        <div class="line"></div>
+        <p> Currently, my main interest is reading new books. </p>
+        <a class="article" href="https://uniquevas8.github.io/Vas-books/" target="_blank">See my Book review website here!</a>
+        <p> Some of my favourite books include Harry Potter by J.K Rowling, Diary of a Wimpy Kid by Jeff Kinney, How to train your dragon by Cressida Cowell and Best friends by Jaqueline Wilson. I've also just got started on Percy Jackson by Rick Riordian. 
+          I think books are a great source of entertainment and can be really interesting. </p>
+          <img src="My amazing books.jpeg" class="profile1">
+          <p><i> My bookshelf</i></p>
+        <br>
+        <p>Another thing I like to do when I'm free is listen to music. I often listen to Western Artists or
+          East Asian bands. 
+        </p>
+        </section>
+
+        <section id="contact vassie">
+          <h1 class="header">Contact Me</h1>
+            <div class="line"></div>
+
+            <a href="mailto: Vasundra01mar@gmail.com"> My email id is vasundra01mar@gmail.com</a>
+            <p> If you have any other queries, I would ask you to mail me through this email id. Thank you!</p>
+
+      
+        </section>
+        
+
+</body></html>
